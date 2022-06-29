@@ -22,3 +22,10 @@
 .card:hover .card-logo{
     transform: scale(1.15);
 }
+.list{
+    text-align: left;
+    font-weight: 500;
+    list-style-position: outside;
+    font-size: .9rem;
+    padding-left:15px ;
+}

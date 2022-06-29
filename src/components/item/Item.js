@@ -8,7 +8,7 @@ const Item = ({ card }) => {
 
   return (
     <div className="card" onClick={()=>setShowLogo(!showLogo)}>
-
+      
       {showLogo ? (
         <div>
           <img className="card-logo" src={img} alt="" />
@@ -16,7 +16,7 @@ const Item = ({ card }) => {
         </div>
       ) : 
       (
-        <ul>
+        <ul className='list'>
           {options.map((element, index) => {
             return <li key={index}>{element}</li>;
           })}
